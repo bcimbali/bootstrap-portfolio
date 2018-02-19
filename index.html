@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
-<body>
+<body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <a class="navbar-brand text-white" href="#"><h1>Brett Cimbalik</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,14 +31,11 @@
     </nav>
     <!-- Main content section -->
     <div class="container">
-        <div class="row">
+        <div class="row flex-md-nowrap justify-content-center">
             <!-- About Me -->
-            <div class="col m-3 border border-info rounded">
-                <div class="row border border-info rounded">
-                    <h3>About Me</h3>
-                </div>
-                <div class="row border border-info rounded">
-                    <img src="./assets/images/Profile_Pic.jpg" alt="Photo of Brett" height="200rem" width="200rem">
+            <div class="col-xs-12 col-md-8 m-4 border border-info rounded">
+                    <h3 class="text-info">About Me</h3>
+                    <img src="./assets/images/Profile_Pic.jpg" alt="Photo of Brett" height="200rem" width="200rem" class="rounded float-left m-1">
                     <p>  
                         My name is Brett Cimbalik and I'm a library assistant and aspiring
                         web developer.  I'm originally from Flushing, MI but currently reside in 
@@ -48,23 +45,46 @@
                         I received my bachelor's degree from Eastern Michigan University and am currently enrolled in the Northwestern University coding bootcamp.
                         In my free time, I enjoy playing guitar and composing electronic music.
                     </p>
-                </div>
             </div>
             <!-- Connect With Me -->
-            <div class="col m-3 border border-info rounded" style="height: 18rem;" >
-                <div class="row border border-info">
-                    <h3>Connect With Me</h3>
-                </div>
-                <div class="row d-flex justify-content-around border border-info rounded">
+            <div class="col-xs-12 col-md-4 m-4 border border-info rounded" style="height: 10rem">
+                    <h3 class="text-info">Connect With Me</h3>
+                <div class="row d-flex justify-content-around rounded">
+                    <div class="col text-center border-right border-info">
                         <a href="https://github.com/bcimbali" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                    </div>
+                    <div class="col text-center border-right border-info">
                         <a href="www.linkedin.com/in/brett-cimbalik" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    </div>
+                    <div class="col text-center">
                         <a href="https://stackoverflow.com/users/6896761/bcimbali" target="_blank"><i class="fab fa-stack-overflow fa-3x"></i></a>
-                </div>
+                    </div>   
+                </div>  
             </div>
         </div>
+        <!-- <div class="row border border-info rounded">
+            <div class="col-2 border border-info rounded">
+                2 cols
+            </div>
+            <div class="col-2 border border-info rounded">
+                2 cols
+            </div>
+            <div class="col-2 border border-info rounded">
+                2 cols
+            </div>
+            <div class="col-2 border border-info rounded">
+                2 cols
+            </div>
+            <div class="col-2 border border-info rounded">
+                2 cols
+            </div>
+            <div class="col-2 border border-info rounded">
+                2 cols
+            </div>
+        </div> -->
         <!-- Footer here -->
         <div class="row fixed-bottom">
-            <div class="col-12 bg-warning text-white p-4 border-top border-info">
+            <div class="col-12 bg-warning text-white p-2 border-top border-info">
                 <p class="d-flex justify-content-center">Copyright &#x24B8; 2018 Brett Cimbalik</p>
             </div>
         </div>
@@ -74,6 +94,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 </html>
